@@ -1,4 +1,4 @@
-个人健康信息上报
+# 个人健康信息上报
 
 
 * 在微信公众号，绑定成功后，会返回一个 oid
@@ -14,8 +14,17 @@
 ```bash
 echo "0 */4 * * * /usr/bin/python /root/jiankangSave.py > /dev/null" >> /var/spool/cron/root
 ```
+# 一键申请越狱
 
+使用Auto.js执行
 
+* 在微信公众号，绑定成功后，会返回一个 oid
+
+* 通过 oid 可以拿到 cookie
+
+* 表单提交的时候需要带上 cookie
+
+填写辅导员ID和你的Uaid即可使用
 
 
 ## Changelog
