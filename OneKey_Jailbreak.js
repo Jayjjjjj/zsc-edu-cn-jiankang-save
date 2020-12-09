@@ -6,7 +6,7 @@ var month=d.getMonth()+1;
 var day=d.getDate();
 var hour=d.getHours();
 //设置辅导员ID
-var body="id=&counsellorid=
+var body="id=&outProvince=0&counsellorid=
 &leaveDate="+year+"-"+month+"-"+day+"+"+hour+"&backDate="+year+"-"+month+"-"+day+"+22"+"&reason=1&goAddress=1&viaAddress=1&linkman=1&linkmanTel=1&attachFile=&fileToUpload="; 
 var headers={
         'Host': 'srv.zsc.edu.cn',
