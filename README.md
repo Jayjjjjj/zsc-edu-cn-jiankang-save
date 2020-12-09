@@ -16,7 +16,7 @@ echo "0 */4 * * * /usr/bin/python /root/jiankangSave.py > /dev/null" >> /var/spo
 ```
 # 一键申请越狱
 
-使用Auto.js执行
+使用[Auto.js](https://github.com/Ericwyn/Auto.js/releases)执行
 
 * 在微信公众号，绑定成功后，会返回一个 oid
 
@@ -33,3 +33,7 @@ echo "0 */4 * * * /usr/bin/python /root/jiankangSave.py > /dev/null" >> /var/spo
 ### [0.2] - 2020-5-16
 
 - 添加表单修改提醒（防止突然改表单加字段，目前只是粗略判断）
+
+### OneKeyJailBreak[0.2] - 2020-12-09
+
+- 增加字段 是否出省
