@@ -30,9 +30,13 @@ echo "0 */4 * * * /usr/bin/python /root/jiankangSave.py > /dev/null" >> /var/spo
 ## Changelog
 
 
-### [0.2] - 2020-5-16
+### JianKangSave[0.2] - 2020-5-16
 
 - 添加表单修改提醒（防止突然改表单加字段，目前只是粗略判断）
+
+### JianKangSave[0.3] - 2021-1-25
+
+- 更新字段
 
 ### OneKeyJailBreak[0.2] - 2020-12-09
 
